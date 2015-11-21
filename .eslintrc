@@ -1,0 +1,24 @@
+---
+env:
+    browser: true
+    commonjs: true
+rules:
+    space-before-keywords: 0
+    space-before-function-paren: 0
+    space-in-parens: 0
+ecmaFeatures:
+    modules: true
+    blockBindings: true
+    classes: true
+    defaultParams: true
+    destructing: true
+    forOf: true
+    objectLiteralComputedProperties: true
+    objectLiteralShorthandMethods: true
+    objectLiteralShorthandProperties: true
+    spread: true
+    superInFunctions: true
+    templateStrings: true
+    arrowFunctions: true
+    
+...
