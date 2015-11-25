@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 gulp.task('default', function() {
     gulp.src('lib/*.js')
         .pipe(babel())
-        .pipe(gulp.dest('build'));
+        .pipe(gulp.dest('build/'));
     return browserify('build/main.js')
         .bundle()
         .pipe(source('bundle.js'))
