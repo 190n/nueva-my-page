@@ -12,6 +12,7 @@ ecmaFeatures:
     classes: true
     defaultParams: true
     destructuring: true
+    generators: true
     forOf: true
     objectLiteralComputedProperties: true
     objectLiteralShorthandMethods: true
