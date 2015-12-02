@@ -17,3 +17,16 @@ For [Nueva High School](https://nuevaschool.org), part of the application is a
 > all parts. Note: submissions will not be returned.
 
 I am developing an HTML5 game for this application.
+
+Building
+--------
+
+Prerequisites: [Node.js](https://nodejs.org), [Gulp](http://gulpjs.com), [Git](https://git-scm.com)
+
+```sh
+$ git clone https://github.com/190n/nueva-my-page.git && cd nueva-my-page
+$ npm i
+$ gulp
+```
+
+Then just visit `index.html` in a modern browser.
