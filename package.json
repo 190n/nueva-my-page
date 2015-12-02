@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "My \"My Page\" application for Nueva High School",
   "author": "190n",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/190n/nueva-my-page.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-polyfill": "^6.2.0",
