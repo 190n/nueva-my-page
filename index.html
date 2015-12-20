@@ -4,13 +4,15 @@
         <meta charset="utf-8">
         <title>Nueva My Page</title>
         <script src="build/bundle.js"></script>
-        <style>
-            canvas {
-                border: thin solid black;
-            }
-        </style>
+        <link rel="stylesheet" href="assets/css/hack.css">
+        <link rel="stylesheet" href="assets/css/main.css">
     </head>
     <body>
-        <canvas id="canvas" width="510" height="660"></canvas>
+        <div id="score-container">
+            Score: <span id="score">0</span>
+        </div>
+        <div id="page">
+            <canvas id="canvas" width="510" height="660"></canvas>
+        </div>
     </body>
 </html>
