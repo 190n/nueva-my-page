@@ -15,14 +15,46 @@
         <![endif]-->
         <div id="top">
             <img src="assets/img/docs-logo.png">
-            <div id="score-container">
-                Score: <span id="score">0</span>
+            <div id="title-container">
+                Ben Grant's "My Page"
+            </div>
+            <div id="menus">
+                <span>File</span>
+                <span>Edit</span>
+                <span>View</span>
+                <span>Insert</span>
+                <span>Format</span>
+                <span>Tools</span>
+                <span>Table</span>
+                <span>Add-ons</span>
+                <span>Help</span>
+                <span>Accessibility</span>
+                <span id="saved">All changes saved in Drive</span>
             </div>
         </div>
         <div id="bottom">
             <div id="page">
                 <canvas id="canvas" width="510" height="660"></canvas>
             </div>
+        </div>
+        <div id="score-container">
+            <h2 id="score-container-title">Word count</h2>
+            <table id="score-table" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td>Tanks</td>
+                        <td id="tank-count">1</td>
+                    </tr>
+                    <tr>
+                        <td>Invaders</td>
+                        <td id="invader-count"></td>
+                    </tr>
+                    <tr>
+                        <td>Score</td>
+                        <td id="score">0</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </body>
 </html>
