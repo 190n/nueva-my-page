@@ -147,12 +147,12 @@ body, html {
     top: 0;
     background-color: rgba(255, 255, 255, 0.75);
     z-index: 1000000;
-    opacity: 1;
+    display: none;
 }
 
 #game-over-dialog {
     width: 400px;
-    height: 400px;
+    height: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -162,8 +162,9 @@ body, html {
     box-sizing: border-box;
     padding: 30px 42px;
     z-index: 1000001;
-    margin-top: -200px;
+    margin-top: -100px;
     margin-left: -200px;
+    display: none;
 }
 
 #game-over-title {
@@ -191,6 +192,9 @@ body, html {
     line-height: 27px;
     text-align: center;
     cursor: default;
+    position: absolute;
+    left: 42px;
+    bottom: 30px;
 }
 
 #play-again-button:hover {
