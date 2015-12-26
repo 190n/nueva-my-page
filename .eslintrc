@@ -1,26 +1,6 @@
 ---
+parser: babel-eslint
 env:
     browser: true
     commonjs: true
-rules:
-    space-before-keywords: 0
-    space-before-function-paren: 0
-    space-in-parens: 0
-ecmaFeatures:
-    modules: true
-    blockBindings: true
-    classes: true
-    defaultParams: true
-    destructuring: true
-    generators: true
-    forOf: true
-    objectLiteralComputedProperties: true
-    objectLiteralShorthandMethods: true
-    objectLiteralShorthandProperties: true
-    spread: true
-    restParams: true
-    superInFunctions: true
-    templateStrings: true
-    arrowFunctions: true
-
 ...
