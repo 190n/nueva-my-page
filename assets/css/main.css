@@ -55,10 +55,10 @@ body, html {
     line-height: 1.15em;
 }
 
-#cursor {
-    width: 2px;
-    height: 19.2px;
-    background-color: black;
+#intro-content {
+    border-right: 2px solid black;
+    padding-right: 2px;
+    -moz-transition: border-right-color 100ms linear;
 }
 
 #title-container {
