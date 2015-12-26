@@ -40,6 +40,10 @@
             <div id="page">
                 <canvas id="canvas" width="512" height="512"></canvas>
             </div>
+            <div id="intro-page">
+                <span id="intro-content"></span>
+                <div id="cursor"></div>
+            </div>
         </div>
         <div id="score-container">
             <h2 id="score-container-title">Word count</h2>
@@ -47,7 +51,7 @@
                 <tbody>
                     <tr>
                         <td>Tanks</td>
-                        <td id="tank-count">1</td>
+                        <td id="tank-count"></td>
                     </tr>
                     <tr>
                         <td>Invaders</td>
@@ -55,7 +59,7 @@
                     </tr>
                     <tr>
                         <td>Score</td>
-                        <td id="score">0</td>
+                        <td id="score"></td>
                     </tr>
                 </tbody>
             </table>
@@ -72,6 +76,9 @@
         </div>
         <div id="silhouette">
             <canvas id="silhouette-canvas" width="600" height="600"></canvas>
+        </div>
+        <div id="caption-container">
+            <span id="caption"></span>
         </div>
     </body>
 </html>
