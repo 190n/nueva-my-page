@@ -2,12 +2,19 @@
     font-family: Arial, 'Liberation Sans', Arimo, sans-serif;
 }
 
-body, html {
+body, html, #docs-container, #game-container {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     overflow: hidden;
+}
+
+#game-container {
+    display: none;
 }
 
 #bottom {
@@ -229,13 +236,13 @@ body, html {
 }
 
 #silhouette {
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     padding: 0;
     position: absolute;
     bottom: 0;
     left: 50%;
-    margin-left: -300px;
+    margin-left: -200px;
 }
 
 #caption-container {

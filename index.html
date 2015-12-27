@@ -13,68 +13,73 @@
             <h1 style="font-size: 96px">UPGRADE YOUR BROWSER</h1>
         </div>
         <![endif]-->
-        <div id="top">
-            <img src="assets/img/docs-logo.png">
-            <div id="title-container">
-                Nueva application essay
+        <div id="docs-container">
+            <div id="top">
+                <img src="assets/img/docs-logo.png">
+                <div id="title-container">
+                    Nueva application essay
+                </div>
+                <div id="menus">
+                    <span>File</span>
+                    <span>Edit</span>
+                    <span>View</span>
+                    <span>Insert</span>
+                    <span>Format</span>
+                    <span>Tools</span>
+                    <span>Table</span>
+                    <span>Add-ons</span>
+                    <span>Help</span>
+                    <span>Accessibility</span>
+                    <span id="saved">All changes saved in Drive</span>
+                </div>
+                <div id="toolbar">
+                    <img src="assets/img/docs-toolbar-left.png" id="toolbar-left">
+                    <img src="assets/img/docs-toolbar-right.png" id="toolbar-right">
+                </div>
             </div>
-            <div id="menus">
-                <span>File</span>
-                <span>Edit</span>
-                <span>View</span>
-                <span>Insert</span>
-                <span>Format</span>
-                <span>Tools</span>
-                <span>Table</span>
-                <span>Add-ons</span>
-                <span>Help</span>
-                <span>Accessibility</span>
-                <span id="saved">All changes saved in Drive</span>
+            <div id="bottom">
+                <div id="page">
+                    <canvas id="canvas" width="512" height="512"></canvas>
+                </div>
+                <div id="intro-page">
+                    <span id="intro-content"></span>
+                </div>
             </div>
-            <div id="toolbar">
-                <img src="assets/img/docs-toolbar-left.png" id="toolbar-left">
-                <img src="assets/img/docs-toolbar-right.png" id="toolbar-right">
+            <div id="score-container">
+                <h2 id="score-container-title">Word count</h2>
+                <table id="score-table" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td>Tanks</td>
+                            <td id="tank-count"></td>
+                        </tr>
+                        <tr>
+                            <td>Invaders</td>
+                            <td id="invader-count"></td>
+                        </tr>
+                        <tr>
+                            <td>Score</td>
+                            <td id="score"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-        <div id="bottom">
-            <div id="page">
-                <canvas id="canvas" width="512" height="512"></canvas>
-            </div>
-            <div id="intro-page">
-                <span id="intro-content"></span>
-            </div>
-        </div>
-        <div id="score-container">
-            <h2 id="score-container-title">Word count</h2>
-            <table id="score-table" cellspacing="0">
-                <tbody>
-                    <tr>
-                        <td>Tanks</td>
-                        <td id="tank-count"></td>
-                    </tr>
-                    <tr>
-                        <td>Invaders</td>
-                        <td id="invader-count"></td>
-                    </tr>
-                    <tr>
-                        <td>Score</td>
-                        <td id="score"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div id="modal-overlay"></div>
-        <div id="game-over-dialog">
-            <h2 id="game-over-title"></h2>
-            <p id="game-over-message">
+            <div id="modal-overlay"></div>
+            <div id="game-over-dialog">
+                <h2 id="game-over-title"></h2>
+                <p id="game-over-message">
 
-            </p>
-            <div id="play-again-button">
-                Play Again
+                </p>
+                <div id="play-again-button">
+                    Play Again
+                </div>
             </div>
+        </div>
+        <div id="game-container">
+            <img id="cookie" src="assets/img/cookie.png">
         </div>
         <div id="silhouette">
-            <canvas id="silhouette-canvas" width="600" height="600"></canvas>
+            <img src="assets/img/silhouette.png" width="400" height="400">
         </div>
         <div id="caption-container">
             <span id="caption"></span>
