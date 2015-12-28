@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Sniglet';
+    src: url('../fonts/sniglet-extrabold.eot');
+    src: url('../fonts/sniglet-extrabold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sniglet-extrabold.woff2') format('woff2'),
+         url('../fonts/sniglet-extrabold.woff') format('woff'),
+         url('../fonts/sniglet-extrabold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Sniglet';
+    src: url('../fonts/sniglet-regular.eot');
+    src: url('../fonts/sniglet-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sniglet-regular.woff2') format('woff2'),
+         url('../fonts/sniglet-regular.woff') format('woff'),
+         url('../fonts/sniglet-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
