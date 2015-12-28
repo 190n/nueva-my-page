@@ -120,11 +120,9 @@ body, html, #docs-container, #game-container {
 }
 
 #toolbar-right {
-    background-color: white;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(0, 0, 0, 0.333);
-    padding: 30px 42px;
-    display: none;
+    position: absolute;
+    top: 0;
+    right: 52px;
 }
 
 #score-container {
@@ -244,7 +242,10 @@ body, html, #docs-container, #game-container {
     height: 400px;
     padding: 0;
     position: absolute;
-    bottom: 0;
+    top: calc(100% - 400px);
+    transition: top 2s linear;
+    -webkit-transition: top 2s linear;
+    -moz-transition: top 2s linear;
     left: 50%;
     margin-left: -200px;
 }
@@ -268,8 +269,24 @@ body, html, #docs-container, #game-container {
     font-weight: bold;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 24px;
+    border-radius: 30px;
     padding: 6px 22px 6px 22px;
+}
+
+#skip-intro-button {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    height: 36px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px;
+    padding-left: 36px;
+    text-align: center;
+    border-top-left-radius: 48px;
+    cursor: pointer;
 }
 
 #cookie {
