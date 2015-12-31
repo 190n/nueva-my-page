@@ -347,9 +347,8 @@ body, html, #docs-container, #game-container {
     margin-top: 10px;
 }
 
-@media (max-width: 1275px) {
+@media (max-width: 1280px) {
     #page {
-        right: 0;
-        left: auto;
+        left: 640px;
     }
 }
